@@ -114,7 +114,7 @@ export default function Navbar() {
       className={`sticky top-0 z-50 w-full transition-all duration-300 ease-in-out p-2 sm:p-4`}
     >
       <div
-        className={`container mx-auto px-4 py-3 flex justify-between items-center 
+        className={`w-full max-w-screen-xl mx-auto px-6 md:px-8 py-3 flex justify-between items-center 
                     backdrop-blur-xl shadow-2xl shadow-slate-900/10 rounded-2xl
                     transition-colors duration-300 ease-in-out
                     ${isScrolled ? "bg-gray-900/90 text-white" : "text-white"}`}

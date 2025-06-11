@@ -40,7 +40,7 @@ export default function HomePage() {
         className={`relative w-full min-h-[70vh] md:min-h-[85vh] flex items-center justify-center text-white ${heroContentPaddingTop} ${heroContentPaddingBottom}`}
       >
         <div
-          className="relative z-20 container mx-auto max-w-4xl p-8 md:p-12 
+          className="relative z-20 w-full mx-auto px-6 md:px-8 max-w-4xl p-8 md:p-12 
                      bg-white/10 backdrop-blur-lg rounded-xl 
                      border border-white/20 shadow-2xl"
         >
@@ -90,7 +90,7 @@ export default function HomePage() {
       </section>
 
       <section className="py-16 bg-white relative z-10">
-        <div className="container mx-auto px-4">
+        <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8">
           <h2 className="text-3xl md:text-4xl font-bold text-center text-slate-800 mb-12">
             Mengapa Memilih Griya Harmoni?
           </h2>
@@ -147,7 +147,7 @@ export default function HomePage() {
         >
           {" "}
           {/* Ganti ID jika perlu, sesuaikan bg */}
-          <div className="container mx-auto px-4">
+          <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8">
             <div className="text-center mb-12 md:mb-16 max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-slate-800 mb-4">
                 Unit rumah kami

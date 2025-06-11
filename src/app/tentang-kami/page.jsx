@@ -21,7 +21,7 @@ export const metadata = {
 export default function TentangKamiPage() {
   return (
     // Kontainer utama halaman, memastikan padding dan lebar konten konsisten
-    <div className="container mx-auto px-4 py-12 md:py-16">
+    <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8 py-12 md:py-16">
       {/* Bagian Hero/Judul Halaman */}
       <section className="text-center mb-12 md:mb-16">
         <FontAwesomeIcon

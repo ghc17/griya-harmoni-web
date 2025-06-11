@@ -279,7 +279,7 @@ export default function FasilitasDanKawasanPage() {
         >
           {" "}
           {/* Latar hero sedikit beda, ada border bawah */}
-          <div className="container mx-auto px-4 text-center center">
+          <div className="w-full max-w-screen-xl mx-auto md:px-8 px-4 text-center center">
             <div className="max-w-3xl mx-auto">
               {" "}
               {/* Konten dibatasi lebarnya dan rata kiri (default) */}
@@ -296,7 +296,7 @@ export default function FasilitasDanKawasanPage() {
           </div>
         </section>
         {/* Kontainer untuk sisa konten halaman */}
-        <div className="container mx-auto px-4">
+        <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8">
           {/* Placeholder untuk section lokasi strategis */}
           <div className="text-center text-gray-400 italic my-10 py-10">
             {/* Section Lokasi Strategis & Aksesibilitas */}
@@ -307,7 +307,7 @@ export default function FasilitasDanKawasanPage() {
               {" "}
               {/* Latar berbeda untuk section ini */}
               <FadeInWhenVisible delay={0.5}>
-                <div className="container mx-auto px-4">
+                <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8">
                   <div className="text-center mb-10 md:mb-12">
                     <FontAwesomeIcon
                       icon={faRoute}
@@ -391,7 +391,7 @@ export default function FasilitasDanKawasanPage() {
             className="py-12 md:py-16 scroll-mt-20"
           >
             <FadeInWhenVisible delay={0.5}>
-              <div className="container mx-auto px-4">
+              <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8">
                 <div className="text-center mb-10 md:mb-12">
                   <FontAwesomeIcon
                     icon={faIndustry}
@@ -463,7 +463,7 @@ export default function FasilitasDanKawasanPage() {
               {" "}
               {/* Dihilangkan background putih agar menyatu dengan layout utama jika diinginkan, atau tambahkan bg-white rounded-xl shadow-lg jika ingin terpisah */}
               <FadeInWhenVisible delay={0.5}>
-                <div className="container mx-auto px-4">
+                <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8">
                   <div className="text-center mb-10 md:mb-12">
                     <FontAwesomeIcon
                       icon={faUsers}
@@ -555,7 +555,7 @@ export default function FasilitasDanKawasanPage() {
               >
                 {" "}
                 {/* Diberi background dan shadow terpisah */}
-                <div className="container mx-auto px-4 py-10">
+                <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8 py-10">
                   <div className="text-center mb-10 md:mb-12">
                     <FontAwesomeIcon
                       icon={faMapMarkedAlt}

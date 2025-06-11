@@ -44,7 +44,7 @@ export default function Footer() {
     <footer className="bg-slate-900 text-slate-400 pt-12 pb-8">
       {" "}
       {/* Warna lebih gelap, padding disesuaikan */}
-      <div className="container mx-auto px-4">
+      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 items-start">
           <div className="md:col-span-1">
             <Link

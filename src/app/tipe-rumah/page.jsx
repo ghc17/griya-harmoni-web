@@ -60,8 +60,7 @@ export default function SinglePropertyDetailPage() {
     <div className={`bg-slate-100 ${pageTopPadding}`}>
       {" "}
       {/* Latar halaman sedikit berbeda */}
-      <div className="container mx-auto px-4 pb-12 md:pb-16">
-
+      <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8 pb-12 md:pb-16">
         <article>
           {/* Header Utama Halaman - Nama Properti, Lokasi, Status */}
           <header className="mb-8 md:mb-10">
