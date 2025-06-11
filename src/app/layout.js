@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Footer from "@/components/layout/Footer";
 import Navbar from "@/components/layout/Navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
@@ -17,6 +18,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="id" className={`${inter.variable} font-sans`}>
       <body className="flex flex-col min-h-screen bg-gray-50 text-gray-800">
+        <Analytics />
+
         <Navbar />
         <main className="flex-grow">{children}</main>
         <Footer />
