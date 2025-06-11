@@ -23,14 +23,13 @@ export default function KontakPage() {
     whatsappDisplay: "+62 811-286-885",
     whatsappLink: "62811286885",
     email: "griyaharmoni2021@gmail.com",
-    operationalHours:
-      "Selalu Buka",
+    operationalHours: "Selalu Buka",
   };
   const mapEmbedSrc =
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4059.059353234433!2d106.41303907509567!3d-6.25005199373836!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e42050040fc7ddd%3A0x86616f93514ebe15!2sGriya%20Harmoni%20Cibugel!5e1!3m2!1sen!2sid!4v1748859109326!5m2!1sen!2sid";
 
   return (
-    <div className="container mx-auto px-4 py-12 md:py-16">
+    <div className="w-full max-w-screen-xl mx-auto px-6 md:px-8 py-12 md:py-16">
       <header className="text-center mb-12">
         <h1 className="text-4xl md:text-5xl font-extrabold text-slate-800 mb-3">
           Hubungi Kami
